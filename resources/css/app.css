@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-lima-tours {
+    background: #bd0d12;
+}
+
+.bg-sidebar-grey {
+    background: #404040;
+}
+
+.linksBar:hover {
+    background: #666565;
+}
+
+.left-card {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+[type='radio']:focus,
+[type='radio']  {
+    --tw-ring-color: #f80000;
+    color: #f80000;
+}
+
+.w_85 {
+   width: 85%;
+}
+
+.lr_38 {
+        margin-left: 0.3rem;
+        margin-right: 0.8rem;
+}
+
+.idioma_bg {
+    background: #6287ef;
+}
+
+.max_box {
+    max-width: 27rem;
+}
+
+.ajust_small {
+    display: flex;
+    width: max-content;
+}
+
+.bg-item-list {
+    background: grey;
+    color: white;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 6rem auto;
+}
+
+@media (min-width: 1200px) {
+    #main {
+        grid-template-columns: 12rem auto;
+    }
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.pt-16 {
+    padding-top: 4rem;
+}
+
+.top-full {
+    top: 100%;
+}
+
+.left-full {
+    left: 100%;
+}
+
+@media (min-width: 1200px) {
+    .xl\:pin-none {
+        left: auto;
+    }
+}
+.group:hover .group-hover\:block {
+    display: block;
+}
